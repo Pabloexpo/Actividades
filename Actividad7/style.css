@@ -1,0 +1,175 @@
+html {
+    background-color: lightgrey;
+
+}
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* CABECERO */
+.logo{
+    display: flex;
+    margin-left: 20px;
+}
+header{
+    display: flex;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    text-decoration: underline;
+    color: rgb(1, 1, 121);;
+}
+nav{
+    flex-grow: 1;
+    text-align: center;
+    align-content: center;
+    font-size: large; 
+    
+}
+a{
+    padding: 20px; 
+}
+.telefono{
+    margin-right: 20px;
+}
+/* CUERPO */
+main{
+    display: flex;
+}
+article{
+    margin-left: 100px;
+}
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+    text-align: center;
+    
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: medium;
+}
+h4{
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: large;
+}
+.caracteristicas img{
+    width: 48px;
+    padding: 40px 40px 0px 40px;
+}
+/* ASIDE */
+/* AZUL */
+aside{
+    padding: 30px 0px 0px 30px;
+}
+.datos{
+    padding-top: 20px;
+    background-color: rgb(1, 1, 121);
+    border-radius: 20px 20px 0px 0px;
+    
+    
+}
+#nombre{
+    color:white;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin: 0;
+}
+#modelo{
+    color: white;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.preciocoche{
+    padding-left: 10px;
+}
+.totalcoche{
+    display: flex;
+    
+}
+.letraeuros{
+    
+    margin:0px 5px 0px;
+    text-align: center;
+    padding-top: 25px;
+}
+.iva{
+    margin:0px 5px 0px;
+    text-align: center;
+    padding-top: 29px;
+}
+/* BLANCO */
+
+.precio{
+    display: flex;
+
+}
+
+.total{
+    padding: 2px 0px 10px 10px;
+    color: lightskyblue;
+    margin-right: 20px;
+    
+}
+.precio{
+    border: 0.5px solid black; 
+}
+h3{
+    margin:5px; 
+    
+}
+.loquiero{
+    display: block;
+    margin: 0 auto; 
+    background-color: rgb(252, 78, 107);
+    width: 240px;
+    height: 40px;
+    border-radius: 10px; 
+    color: white;
+}
+
+.loquieropequeño{
+    background-color: rgb(252, 78, 107);
+    border-radius: 10px;
+    margin: 15px; 
+    color: white;
+}
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px; 
+    background-color: rgb(1, 1, 121);
+    border-radius: 20px 20px 0px 0px;
+}
+#duda{
+    font-size: xx-large;
+    color: white
+}
+#terminos{
+    font-size: small;
+    color:white
+}
+.boton{
+    border-radius: 10px;
+    color: white;
+}
+.rosa{
+    background-color: rgb(252, 78, 107);
+}
+.azul{
+    background-color:lightskyblue;
+}

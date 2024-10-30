@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="keywords" content="certificado, COVID, examen">
+    <title>LMSGI10 - Actividad 10</title>
+</head>
+
+<body>
+    <header>
+        <h5>Datos del certificado COVID</h5>
+    </header>
+    <main>
+        <aside class="qrcode96">
+            <p>Código QR</p>
+            <img src="img/qrcodes/qrcode001.png" alt="ERROR QR ausente">
+        </aside>
+        <section class="form">
+            <form action="" method="post">
+                <div class="datos">
+                    <div class="entrada">
+                        <div class="etiqueta">
+                            <label for="inNom">Nombre: </label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="inNom" id="inNom" maxlength="40">
+                        </div>
+                    </div>
+                    <div class="entrada">
+                        <div class="etiqueta">
+                            <label for="inEml">Email: </label>
+                        </div>
+                        <div class="input">
+                            <input type="email" name="inEml" id="inEml">
+                        </div>
+                    </div>
+                    <div class="entrada">
+                        <div class="etiqueta">
+                            <label for="inTel">Teléfono: </label>
+                        </div>
+                        <div class="input">
+                            <input type="number" name="inTel" id="inTel">
+                        </div>
+                    </div>
+                    <div class="entrada">
+                        <div class="etiqueta">
+                            <label for="inOri">Origen: </label>
+                        </div>
+                        <div class="input">
+                            <select name="inOri" id="inOri">
+                                <option value="Nacional">Nacional</option>
+                                <option value="Extranjero">Extranjero</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="botones">
+                    <button class="btnForm" id="btnAce" type="submit"><strong>Aceptar y guardar</strong></button>
+                    <button class="btnForm btnFormCancel" id="btnCan" type="submit"><strong>Cancelar y rechaza</strong>r</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

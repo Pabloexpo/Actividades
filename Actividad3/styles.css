@@ -1,0 +1,141 @@
+body{
+    background-color: lightslategray;
+}
+.web{
+    width: 1080px;
+    margin: auto;
+}
+header{
+    background-color: lightgreen;
+    justify-content: center;
+    display:flex;
+    font-size: x-large;
+    flex-wrap: wrap;
+    
+}
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    background-color: rgb(195, 197, 196);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:5px;
+    flex-grow: 0.5;
+}
+
+.busContacto img{
+    height: 48px;
+    width: 48px;
+    
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid yellow;
+    margin: 20px;
+    padding: 0.5em; 
+    
+}
+.contacto1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 0.5em; 
+    
+}
+p{
+    font-size: small;
+}
+#buscarContacto{
+    margin: 10px;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+    
+}
+.informacion h5 {
+    word-break: break-word; /* Permite que las palabras largas se rompan y ajusten */
+    max-width: 120px; /* O ajusta el ancho máximo según lo que necesites */
+
+    margin: 0;
+}
+.informacion p{
+    margin:0;
+
+}
+
+section{
+    background-color: rgb(224, 224, 214);
+    flex-grow: 3.5;
+    display: flex;
+    flex-direction: column;
+}
+.busMensaje{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#buscarMensaje{
+    flex-grow: 1;
+}
+.mensajes{
+    display:flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.mensajesSep{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin:15px;
+    background-color: #FFC;
+    flex-wrap: wrap;
+
+}
+.mensajesSep img{
+    width: 420px;
+    padding-top: 1em;
+}
+.mensaje2{
+    background-color: #CFF;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+
+    align-self: flex-end;
+    padding: 1em;
+
+}
+.mensaje3{
+    background-color: #FFC;
+    display: flex;
+    margin-bottom: 120px;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin:15px
+}
+
+footer{
+    background-color: lightcyan;
+    font-size: large;
+    display: flex;
+}
+.texto{
+    flex-grow: 1;
+    padding: 1em
+}
+.boton{
+    padding:1em; 
+    width: 100px;
+}

@@ -1,0 +1,139 @@
+html{
+    background-color: black;
+}
+
+body{
+    margin-left: 64px;
+    margin-right: 64px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.titulo{
+    margin-left: 1em;
+}
+nav{
+    align-self: center;
+}
+nav a{
+    padding: 1em;
+    color: rgb(168, 167, 167);
+}
+.areaclientes{
+    align-self: center;
+    margin-right: 1em;
+}
+.areaclientes button{
+    background-color: rgb(0, 154, 192);
+    color: white; 
+    padding: 0.5em 1em 0.5em 1em;
+    border: 3px solid rgba(3, 3, 3, 0.644);
+    border-radius: 0.5em;
+}
+/* MAIN */
+.flex1{
+    flex: 1;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.section{
+    display: flex;
+
+}
+section img{
+    width: 36em;
+    height: auto;
+    padding: 0em 0em 0em 2em;
+}
+/* ASIDE */
+.formulario{
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 2em;
+}
+.checkbox{
+    display: flex;
+    padding: 1em 2em 1em 0em;
+    font-size: small;
+    margin-left: 3.5em;
+    
+}
+.checkbox p{
+    margin: 0;
+    margin-top: 2.2px;
+}
+.peque{
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    width: 2px;
+
+}
+
+
+/* MEDIA QUERYS */
+@media (max-width: 600px) {
+    .imagen {
+        max-width: 100%; /* La imagen ocupará el 100% en pantallas pequeñas */
+    }
+}
+
+@media (min-width: 601px) {
+    .imagen {
+        max-width: 600px; /* Ancho máximo para pantallas más grandes */
+    }
+}
+
+
+.botonnaranja{
+    justify-self: flex-end;
+    margin-right: 1.2em;
+}
+.botonnaranja button{
+    background-color: rgb(235, 167, 21);
+    color: white; 
+    padding: 0.5em 1em 0.5em 1em;
+    margin-bottom: 1em;
+    border: 3px solid rgba(3, 3, 3, 0.644);
+    border-radius: 0.5em;
+}
+.entrada{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0em 2em 1em 0em;
+}
+.cuadro{
+
+    justify-self: center;
+    width: 5em;
+}
+label{
+    width: 5em;
+}
+input, textarea{
+    width: 20em;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(200, 230, 240);
+    color:rgb(168, 167, 167)
+}
+footer a{
+    color: rgb(168, 167, 167);
+}

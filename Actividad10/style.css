@@ -1,0 +1,65 @@
+html{
+    background-color: beige;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER */
+header h5{
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: large;
+}
+/* MAIN */
+main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+aside{
+    padding-left: 1em;
+}
+aside p{
+    padding-left: 0.5em;
+}
+form{
+    display: flex;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.entrada{
+    display: flex;
+    padding: 0.5em;
+}
+.input{
+    justify-self: center;
+}
+.etiqueta{
+    width: 5em;
+}
+
+.botones{
+    padding: 2em 0em;
+    display: flex;
+    flex-direction: column;
+}
+.btnForm{
+    border: 0px;
+}
+#btnAce{
+    padding: 1em 2em;
+    color: white;
+    background-color: blue;
+}
+.btnFormCancel{
+    margin-top: 1em;
+    background-color: yellow;
+    padding: 1em 2em;
+}

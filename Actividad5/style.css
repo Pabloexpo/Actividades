@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+
+
+}
+
+body {
+    background-color: white;
+    width: 1600px;
+}
+
+/* ENCABEZADO */
+header img {
+    width: 1600px;
+    margin: 0;
+    display: block;
+}
+
+/* MAIN */
+
+
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.flex_grow{
+    flex-grow: 1;
+}
+.player{
+    margin-top: 30px;
+}
+.titulo{
+    margin-right: 150px;
+    border: 1px solid black;
+}
+.set_general{
+    justify-content: space-around;
+    text-align: center;
+    font-size: xxx-large;
+}
+.puntos {
+    font-size: 200px; /* Aumenta el tamaño de la fuente */
+    background-color: lightgray; /* Color de fondo gris claro */
+    color: black; /* Color del texto negro */
+    padding: 0em; /* Añade algo de padding para espaciar */
+    width: 250px; /* Ajusta el ancho para parecerse más a la imagen */
+    height: 250px; /* Ajusta la altura para ser similar a la imagen */
+    display: flex;
+    align-items: center; /* Alinea el número verticalmente en el centro */
+    justify-content: center; /* Alinea el número horizontalmente en el centro */
+    border-radius: 5px; /* Un borde suave redondeado similar a la imagen */
+    border: 1px solid black; /* Bordes visibles como en la imagen */
+}
+
+.set{
+    border: 1px solid black;
+    flex-grow: 1;
+    margin: 0em 0em 0em 1em;
+    text-align: center;
+}
+.set_actual{
+    background-color: lightyellow;
+}
+
+
+
+/* FOOTER */

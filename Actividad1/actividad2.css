@@ -1,0 +1,28 @@
+header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 0 20px
+}
+.imagen_pablo{
+    border-radius: 50%;
+    align-items: left;
+}
+.nombre{
+    text-align: center;
+    background-color: azure;
+    flex-grow: 1;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+}
+section{
+    background-color: rgb(183, 171, 196);
+    flex-grow: 1;
+}
+aside{
+    background-color: beige;
+    
+}

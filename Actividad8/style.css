@@ -1,0 +1,176 @@
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: roboto;
+}
+
+
+
+/* HEADER */
+header {
+    background-color: lightgray;
+    display: flex;
+    color: rgb(16, 97, 248);
+    border: 1px solid lightslategray;
+}
+
+.encabezado {
+    display: block;
+    padding: 0.5em 2em 0.5em 2em;
+    margin: 1em 0em 1em 1em;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+.encabezado p {
+    margin: 0;
+}
+
+.fondoazul {
+    background-color: rgb(104, 182, 255);
+}
+
+/* NAV */
+nav {
+    display: flex;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px 5px 0px 0px;
+}
+
+nav p {
+    padding: 1em;
+}
+
+.flechas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3em;
+    margin-right: 3em;
+}
+
+.flechas img {
+    width: 36px;
+    height: 36px;
+
+}
+
+.idiomas {
+    display: flex;
+    flex-grow: 1;
+}
+.destino{
+    margin-right: 3em;
+}
+
+.marginleft {
+    margin-left: 1em;
+}
+.subrayado{
+    border-bottom: 1px solid rgb(104, 182, 255);
+    color: rgb(104, 182, 255);
+}
+/* MAIN */
+main{
+    display: flex;
+}
+section {
+    display: flex;
+    flex:1; 
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.original{
+    align-content: flex-start;
+}
+section h2{
+    margin-left: 1.5em;
+    
+}
+.iconos {
+    display: flex;
+    margin: 2em; 
+    justify-content: flex-start;
+
+    
+}
+.icono img{
+    width: 36px;
+    height: 36px;
+    background-color: rgb(252, 252, 252);
+}
+.altavoz{
+    flex-grow: 1;
+}
+.traduccion{
+    background-color: rgb(231, 229, 229);
+} 
+.palabratraducida{
+    background-color: rgb(104, 182, 255);
+    color: white; 
+    width: 3.6em;
+}
+/* SEGUNDA PARTE */
+.segundo{
+    display: flex;
+    margin-bottom: 0;
+}
+.flexuno{
+    flex: 1;
+}
+.definicion{
+    margin-top: 0.5em;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    margin-right: 0.2em;
+}
+.segundo p{
+    margin-left: 1.5em;
+}
+.segundo h4{
+    margin-left: 1.5em;
+    color: rgb(104, 182, 255);
+}
+#descripcion {
+    margin-left: 3em;
+}
+.vertambien{
+    margin-top: 0.5em;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    margin-right: 0.2em;
+}
+.vertambien button{
+    margin-left: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    border-radius: 2em;
+    color: rgb(104, 182, 255);
+    border: 1px solid rgb(156, 156, 156);
+
+}
+.traducciones {
+    margin-top: 0.5em;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    margin-left: 0.2em;
+}
+/* SUSTANTIVOS */
+.sustantivos{
+    display: flex;
+    
+}
+.palabra h4{
+    color: black;
+}
+.palabratraducidas p{
+    margin-bottom: 0;
+    padding-top: 0.35em;
+    color: rgb(156, 156, 156);;
+}
