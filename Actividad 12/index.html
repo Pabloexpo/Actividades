@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pablo Exp&oacute; Mart&iacute;</title>
+</head>
+
+<body>
+    <header>
+        <h3>La Web de LLMM</h3>
+        <div class="buscador">
+            <div class="titular flex">
+                <label for="titular">Buscar</label>
+                <input type="text" name="titular" id="titular" placeholder="por titular">
+            </div>
+            <div class="contenido flex">
+                <input type="text" id="contenido" placeholder="palabras clave en contenido">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <article>
+                <img src="img/task-pending.png" alt="Icono tarea pendiente">
+                <div class="tareas">
+                    <h4>Tareas pendientes</h4>
+                    <p>Sube tus soluciones para que sean corregidas</p>
+                </div>
+            </article>
+            <article>
+                <img src="img/task-done.png" alt="Tarea hecha">
+                <div class="tareas">
+                    <h4>Tareas realizadas</h4>
+                    <p>Comprueba aquí tus resultados</p>
+                </div>
+            </article>
+        </section>
+        <aside>
+            <form action="login.php" method="post">
+                <div class="cajaamarilla">
+                    <label for="user">Usuario</label>
+                    <input type="email" name="user" id="user" placeholder="alumno@llmm.org">
+                </div>
+                <div class="cajaamarilla">
+                    <label for="pwd">Contraseña</label>
+                    <input type="password" name="pwd" id="pwd">
+                </div>
+                <div class="boton">
+                   <button type="submit" class="identificacion">Identificarse</button> 
+                </div>
+                
+            </form>
+
+        </aside>
+    </main>
+</body>
+
+</html>

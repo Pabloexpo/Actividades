@@ -1,0 +1,88 @@
+html{
+    background-color: white;
+}
+body{
+    width: 1200px;
+    margin: 0 auto; 
+}
+.flex{
+    flex:1;
+}
+/* HEADER */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    color: white;
+}
+.buscador{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+header input{
+    width: 80%;
+    border-radius: 1em;
+    padding: 0.5em 0.8em;
+    background-color: lightgray;
+}
+header h3{
+    padding-left: 1em;
+}
+/* MAIN */
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    
+    
+}
+article{
+    display: flex;
+    margin-top: 1em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    background-color: white;
+    padding: 0em 2em 3em 2em;
+    border-radius: 1em;
+    align-content: flex-start;
+}
+article img{
+    width: 46px;
+    height: 46px;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+/* ASIDE */
+aside{
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.cajaamarilla{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 0.5em 1em;
+}
+.cajaamarilla input{
+    background-color: lightyellow;
+    border-radius: 1em;
+    padding: 0.3em 0.3em;
+}
+.boton{
+    padding: 1em;
+}
+
+aside button{
+    padding: 0.5em;
+    background-color: lightyellow;
+    border-radius: 1em;
+}
